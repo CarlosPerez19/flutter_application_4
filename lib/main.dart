@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_application_4/alumnos_page.dart';
+import 'package:flutter_application_4/sitios_turisticos.dart';
 import 'productos_page.dart';
 import 'alumnos_page.dart';
 import 'chat.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Productos de la tienda",
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: AlumnosPage(),
+      home: TurismoPage(),
     );
   }
 }
